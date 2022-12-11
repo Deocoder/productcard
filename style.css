@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+*::selection{
+  color: #000;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(30, 38%, 92%);
+  /* background-color: hsl(158, 36%, 37%) ; */
+}
+
+.product-info{
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+
+span{
+  font-size: 25px;
+  font-weight: 900;
+  color:hsl(158, 91%, 13%);
+}
+
+s{
+  margin-left: 20px;
+  font-size: 12px;
+}
+
+.box {
+  display: flex;
+  height: 400px;
+  width: 500px;
+  border-radius: 10px;
+  /* border: 2px solid sandybrown; */
+}
+
+.button-con {
+margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box button {
+  background-color: hsl(158, 36%, 37%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+  padding: 12px;
+  outline: hsl(158, 36%, 37%);
+  display: flex;
+  transition: all 1.5s;
+  align-items: center;
+  justify-content: center;
+}
+
+.box button:focus{
+background-color:  hsl(158, 91%, 13%);
+}
+
+.box button h6{
+    padding-left: 10px;
+    font-size: 12px;
+}
+
+.description p {
+  line-height: 22px;
+  opacity: 0.5;
+  font-size: 13px;
+}
+
+.right-side {
+  object-fit: cover;
+  width: 50%;
+}
+
+.right-side img {
+  height: 100%;
+  width: 100%;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+.left-side {
+  width: 50%;
+  padding: 25px;
+  background-color: hsl(0, 0%, 100%);
+  text-transform: capitalize;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.low-opacity {
+  letter-spacing: 3px;
+  font-size: 12px;
+  text-transform: uppercase;
+  opacity: 0.5;
+  margin-bottom: 20px;
+  font-weight: 100;
+}
+
+.high-opacity {
+  font-weight: 900;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
